@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SatQuery AI – Multimodal Remote Sensing Assistant | SIH 2026 (SIH26167)</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300f0ff'><path d='M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 17.93V17a1 1 0 0 0-2 0v2.93A8 8 0 0 1 4.07 13H7a1 1 0 0 0 0-2H4.07A8 8 0 0 1 11 4.07V7a1 1 0 0 0 2 0V4.07A8 8 0 0 1 19.93 11H17a1 1 0 0 0 0 2h2.93A8 8 0 0 1 13 19.93z'/></svg>">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            space: {
+              950: '#040711',
+              900: '#080d1e',
+              850: '#0d152d',
+              800: '#131e3d',
+              700: '#1e2e5c',
+            },
+            isro: {
+              orange: '#ff7700',
+              blue: '#0055a5',
+            },
+            tech: {
+              cyan: '#00f0ff',
+              emerald: '#10b981',
+              amber: '#f59e0b',
+              purple: '#a855f7',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- React 18 & ReactDOM -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+  <!-- Babel Standalone for JSX compilation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.10/babel.min.js"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="tactical-grid-bg min-h-screen text-slate-100 antialiased selection:bg-cyan-500 selection:text-black">
+  <div id="root"></div>
+
+  <!-- Load Mock Data -->
+  <script src="js/mockData.js"></script>
+  <!-- Load Main Application Component -->
+  <script type="text/babel" src="js/app.jsx"></script>
+</body>
+</html>
