@@ -6,6 +6,12 @@
 
 ---
 
+## 🌐 Live Prototype & Deployment
+- **Live Public Prototype (24/7 Permanent):** [https://manasmaniojha.github.io/satquery-ai/](https://manasmaniojha.github.io/satquery-ai/)
+- **GitHub Source Code Repository:** [https://github.com/ManasManiOjha/satquery-ai](https://github.com/ManasManiOjha/satquery-ai)
+
+---
+
 ## 🛰️ Project Overview
 
 Remote sensing satellite imagery analysis conventionally requires specialized GIS software, deep signal processing knowledge, and manual inspection. Optical imagery is hindered by perpetual cloud cover, SAR requires complex microwave interpretation, temporal changes are difficult to track across large areas, and standard AI black-box models provide answers with no verifiable proof.
